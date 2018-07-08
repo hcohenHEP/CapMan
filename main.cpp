@@ -10,15 +10,8 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    //Random Walker
-    //RandomWalker walker;
-    //walker.Run();
-
     //Regular Work
-    //MainWindow w;w.show();
-
-    //ConfusionMatrix & Precision
-    MVATrainer::PlotConfusionMatrix("Training Samples/CapFinderTMVA.root",-0.19);
+    MainWindow w;w.show();
 
     //MVA Training
     //MVATrainer trainer;
